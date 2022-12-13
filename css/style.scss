@@ -43,3 +43,19 @@ h1 {
         color: white;
     }
 }
+.mediaContent {
+    position: relative;
+    width: calc(100% - 10px);
+    min-height: min(50vw, 500px);
+    margin: 5px;
+}
+
+.text p:first-of-type::first-letter {
+    float: left;
+    font-family: Georgia;
+    font-size: max(calc(2vw * 2), 56px);
+    line-height: max(2.9vw, 40px);
+    padding-top: 12px;
+    padding-right: 8px;
+    padding-left: 7px;
+}
