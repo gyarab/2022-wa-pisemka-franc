@@ -51,8 +51,8 @@ h1 {
 .text p:first-of-type::first-letter {
   float: left;
   font-family: Georgia;
-  font-size: max(4vw, 56px);
-  line-height: max(2.9vw, 40px);
+  font-size: max(3vw, 56px);
+  line-height: max(2.5vw, 30px);
   padding-top: 12px;
   padding-right: 8px;
   padding-left: 7px;
